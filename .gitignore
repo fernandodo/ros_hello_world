@@ -1,0 +1,30 @@
+# ROS 2 build and install artifacts
+build/
+install/
+log/
+
+# ROS 2 workspace settings
+.colcon/
+.colcon_install_layout
+
+# ROS 2 local configuration
+*.local.yaml
+
+# VSCode settings (optional, but common for ROS 2 workspaces)
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other common ignores
+*.swp
+*.swo
+*.bak
+*.tmp
