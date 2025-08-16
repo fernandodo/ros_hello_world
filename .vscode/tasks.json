@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "colcon: build (compile_commands)",
+        "type": "shell",
+        "command": "colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=1",
+        "options": {
+          "cwd": "${workspaceFolder}",
+          "shell": {
+            "executable": "/bin/bash",
+            "args": ["-lc"]
+          }
+        },
+        "presentation": {
+          "reveal": "always",
+          "focus": true,
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": false
+        },
+        "group": { "kind": "build", "isDefault": true },
+        "problemMatcher": []
+      }
+    ]
+  }
+  

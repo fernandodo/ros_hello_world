@@ -11,7 +11,9 @@ log/
 *.local.yaml
 
 # VSCode settings (optional, but common for ROS 2 workspaces)
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
 
 # Python cache
 __pycache__/

@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.profiles.linux": {
+      "bash (ROS2)": {
+        "path": "bash",
+        "args": ["-c", "if [ -f /opt/ros/jazzy/setup.bash ]; then source /opt/ros/jazzy/setup.bash; fi; if [ -f install/setup.bash ]; then source install/setup.bash; fi; exec bash"],
+        "icon": "robot"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash (ROS2)",
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+      "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "cmake.sourceDirectory": "/home/felux/Projects/ros/ros_hello_world/src/my_cpp_pkg",
+    "python.analysis.extraPaths": [
+      "/home/felux/Projects/ros/ros_hello_world/install/my_py_pkg/lib/python3.12/site-packages",
+      "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+  }
+  

@@ -5,7 +5,7 @@ from rclpy.node import Node
 
 class MyCustomNode(Node):
     def __init__(self):
-        super().__init__("my_node_name")
+        super().__init__("number_publisher")
         self.get_logger().info("Hello ROS2")
         self.counter_ = 0
         self.timer_ = self.create_timer(1.0, self.timer_callback)
